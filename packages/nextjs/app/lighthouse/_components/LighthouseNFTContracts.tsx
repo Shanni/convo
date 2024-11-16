@@ -65,7 +65,7 @@ export function LighthouseNFTContracts() {
                   }`}
                   onClick={() => setActiveTab("private")}
                 >
-                  Mint Private NFT
+                  I'm Anon, I'll keep it to myself.
                 </button>
                 <button
                   className={`btn btn-secondary btn-sm font-light hover:border-transparent ${
@@ -73,7 +73,7 @@ export function LighthouseNFTContracts() {
                   }`}
                   onClick={() => setActiveTab("open")}
                 >
-                  Mint Open NFT
+                  Show your new friendship to the word!
                 </button>
               </div>
             </div>
