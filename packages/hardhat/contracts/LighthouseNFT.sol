@@ -17,7 +17,7 @@ contract LighthouseNFT is ERC721 {
     mapping(uint256 => bool) private openAccessTokens;
 
     // Constructor to initialize the ERC721 token with a name and symbol
-    constructor() ERC721("LighthouseNFT", "LNFT") {}
+    constructor() ERC721("FriendlyNFT", "BFF") {}
 
     // Function to mint a new token with open access
     function mint(string memory lighthouse_cid) public {
