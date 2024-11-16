@@ -1,0 +1,99 @@
+[
+  {
+    "id": "c712a71a-93f8-4f7d-a606-d1795e767aae",
+    "metadata": {
+      "created_at": "2024-11-16T11:57:30.366Z",
+      "finished_at": "2024-11-16T12:05:43.301Z",
+      "language": "en"
+    },
+    "content": {
+      "title": "Discussion on Travel App and NFT Community Improvements",
+      "overview": "The conversation revolves around two main topics: a travel app that can make automatic recommendations based on conversations, and strategies to improve NFT communities by using Layer 2 solutions. Speaker 1 discusses the travel app's concept, which involves integrating suggestions for places to visit automatically. They also discuss the idea of using NFTs to improve community engagement by rewarding long-term holders with discounts and emphasizing their value in the community. Speaker 2 adds insights on the current state of NFT communities and potential improvements.",
+      "emoji": "🧠",
+      "category": "technology",
+      "proofOfMeeting-cid": "bafybeigcozdiqrdfpsjda5xwomuobkpo2khmknzyl4t2awriqak6677tni"
+    },
+    "tasks": [
+      {
+        "description": "Speaker 1 needs to figure out how to integrate the front end for the travel app.",
+        "status": "pending",
+        "isDeleted": false
+      },
+      {
+        "description": "Speaker 1 to explore ways to reward NFT holders with discounts for long-term holding.",
+        "status": "pending",
+        "isDeleted": false
+      }
+    ],
+    "insights": [
+      {
+        "pluginId": "omi-your-mentor-and-teacher-01JCPRSZ7FS40FHFNSJZEWR8R1",
+        "content": "It looks like you just had a pretty deep conversation about NFTs and tech ideas! When you mentioned the concept of using a traveling app that suggests places based on conversations, it really stood out. That's a cool idea, and it sounds like you’re thinking creatively about how technology can enhance experiences.\n\nAlso, the part where you discussed the value of NFT communities and their potential for growth shows you're really engaged with the subject. It’s interesting how you connected holding NFTs for a long time with discounts—this could be a game-changer for loyalty in the NFT space. \n\nJust a thought: when you're brainstorming these ideas, maybe consider what makes them relatable to everyday users. For example, how could someone unfamiliar with tech benefit from your suggestions? Keep exploring those ideas, and don’t hesitate to bounce them off friends or peers for feedback!"
+      }
+    ]
+  },
+  {
+    "id": "ceb28bc9-62b7-478d-98a3-24d601fc3da0",
+    "metadata": {
+      "created_at": "2024-11-16T11:52:29.076Z",
+      "finished_at": "2024-11-16T11:55:25.755Z",
+      "language": "en"
+    },
+    "content": {
+      "title": "Filecoin Calibration Test Network",
+      "overview": "The conversation revolves around obtaining calibration net tokens for Filecoin. Speaker 3 is inquiring about how to get these tokens, and Speaker 2 suggests searching for the Filecoin calibration test network. There is some confusion and uncertainty about whether the correct method is being used to access these tokens.",
+      "emoji": "🧠",
+      "category": "technology"
+    },
+    "tasks": [
+      {
+        "description": "Search for Filecoin calibration test network to obtain calibration net tokens.",
+        "status": "pending",
+        "isDeleted": false
+      }
+    ],
+    "insights": [
+      {
+        "pluginId": "omi-your-mentor-and-teacher-01JCPRSZ7FS40FHFNSJZEWR8R1",
+        "content": "It looks like the conversation you shared is a bit technical and doesn't really connect to personal experiences or feelings. If you find yourself in a discussion like this often, it might be helpful to clarify your thoughts or questions beforehand. For example, when Speaker 3 mentioned they couldn’t find something, they could have asked for more specific guidance. \n\nIf you have similar conversations in the future, remember to ask for clarification if you’re confused or share your own experiences related to the topic. That can help make the discussion more engaging and productive! If you want to talk about anything else or need help with a specific topic, just let me know!"
+      }
+    ]
+  },
+  {
+    "id": "0b4d5282-d44f-48bd-be2d-93292d779075",
+    "metadata": {
+      "created_at": "2024-11-16T10:14:53.105Z",
+      "finished_at": "2024-11-16T10:15:52.990Z",
+      "language": "zh"
+    },
+    "content": {
+      "title": "讨论蓝牙设备的问题",
+      "overview": "在这段对话中，两个说话者讨论了关于蓝牙设备的问题。Speaker 0 提到他的两个室友都不在，并且对蓝牙设备的使用存在疑惑。Speaker 1 认为蓝牙传输速度不应该慢，因为蓝牙现在速度很快。他们还提到声音的识别度很高，但设备可能不太好用。",
+      "emoji": "🔧",
+      "category": "technology"
+    },
+    "tasks": [],
+    "insights": [
+      {
+        "pluginId": "omi-your-mentor-and-teacher-01JCPRSZ7FS40FHFNSJZEWR8R1",
+        "content": "It looks like the conversation you had was a bit jumbled and focused on some technical issues, possibly about a Bluetooth device. Since it doesn't really connect to personal growth or self-improvement, there's not much specific feedback I can give you, but I do want to encourage you to keep sharing your thoughts more clearly. \n\nFor example, if you find yourself discussing technology or any challenges you’re facing, try to explain how it impacts you personally or your thoughts about it. When you mentioned the Bluetooth device not working well, you could add how that affects your day-to-day or if it frustrates you. \n\nJust a little more clarity can make a big difference in how your conversations go! Keep it up!"
+      }
+    ]
+  },
+  {
+    "id": "79f27bc0-c53d-44ea-a493-cb67c7a2d65b",
+    "metadata": {
+      "created_at": "2024-11-15T15:48:29.822Z",
+      "finished_at": "2024-11-15T15:49:22.301Z",
+      "language": "en"
+    },
+    "content": {
+      "title": "Good Restaurants in Bangkok",
+      "overview": "The conversation briefly touches on good restaurants in Bangkok, specifically mentioning a hot spicy curry in Sukhumvit as the number one choice.",
+      "emoji": "🍛",
+      "category": "travel"
+    },
+    "tasks": [],
+    "insights": []
+  }
+]
