@@ -41,23 +41,22 @@ module.exports = {
       },
       {
         dark: {
-          primary: "#212638",
-          "primary-content": "#F9FBFF",
-          secondary: "#007ACC",
-          "secondary-content": "#F9FBFF",
-          accent: "#4969A6",
-          "accent-content": "#F9FBFF",
-          neutral: "#F9FBFF",
-          "neutral-content": "#385183",
-          "base-100": "#007000",
-          "base-200": "#007000",
-          "base-300": "rgb(30 64 175)",
-          "base-content": "#F9FBFF",
-          info: "#385183",
-          success: "#34EEB6",
-          warning: "#FFCF72",
-          error: "#FF8863",
-
+          "primary": "#FFC1C1",           // Pastel Pink
+          "primary-content": "#000000",   // Black for better contrast
+          "secondary": "#FFD59E",         // Pastel Yellow
+          "secondary-content": "#000000", // Black for better contrast
+          "accent": "#F4A4A4",            // Soft Coral Pink
+          "accent-content": "#000000",    // Black for better contrast
+          "neutral": "#FFF8E1",           // Warm Pastel Cream
+          "neutral-content": "#000000",   // Black for better contrast
+          "base-100": "#FFD1DC",          // Light Pastel Pink
+          "base-200": "#FFE6CC",          // Light Peach Pastel
+          "base-300": "#FFF3E0",          // Light Cream
+          "base-content": "#000000",      // Black for better contrast
+          "info": "#FFD3C8",              // Light Pastel Orange
+          "success": "#D7F9C2",           // Light Pastel Green
+          "warning": "#FFF5BA",           // Soft Pastel Yellow
+          "error": "#FF9AA2",
           "--rounded-btn": "9999rem",
 
           ".tooltip": {
