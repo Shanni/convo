@@ -23,20 +23,74 @@ app.get('/health', (req, res) => {
 app.post('/webhook', (req, res) => {
   try {
     const webhookData = req.body;
-    console.log('Received webhook data:', webhookData);
     
-    // Process webhook data here
-    // You can add your custom logic to handle the webhook payload
+    // Validate the required fields
+    if (!webhookData.id || !webhookData.structured) {
+      return res.status(400).json({
+        status: 'error',
+        message: 'Invalid webhook data format'
+      });
+    }
+
+    // Extract relevant information
+    const {
+      id,
+      created_at,
+      finished_at,
+      language,
+      structured: {
+        title,
+        overview,
+        emoji,
+        category,
+        action_items
+      },
+      plugins_results
+    } = webhookData;
+
+    // Process the data
+    const processedData = {
+      id,
+      metadata: {
+        created_at: new Date(created_at),
+        finished_at: new Date(finished_at),
+        language
+      },
+      content: {
+        title,
+        overview,
+        emoji,
+        category
+      },
+      tasks: action_items.map(item => ({
+        description: item.description,
+        status: item.completed ? 'completed' : 'pending',
+        isDeleted: item.deleted
+      })),
+      insights: plugins_results?.map(plugin => ({
+        pluginId: plugin.plugin_id,
+        content: plugin.content
+      })) || []
+    };
+
+    console.log('Processed webhook data:', processedData);
+    
+    // Here you can add additional logic like:
+    // - Storing in database
+    // - Triggering notifications
+    // - Updating other services
     
     res.status(200).json({
       status: 'success',
-      message: 'Webhook received successfully'
+      message: 'Webhook processed successfully',
+      data: processedData
     });
   } catch (error) {
     console.error('Error processing webhook:', error);
     res.status(500).json({
       status: 'error',
-      message: 'Error processing webhook'
+      message: 'Error processing webhook',
+      error: error.message
     });
   }
 });
