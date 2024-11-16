@@ -20,21 +20,6 @@ const Home: NextPage = () => {
             <p className="my-2 font-medium">Connected Address:</p>
             <Address address={connectedAddress} />
           </div>
-          <p className="text-center text-lg">
-            Get started with Lighthouse.
-            <br />
-            First, go to{" "}
-            <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
-              packages/hardhat/README.md
-            </code>{" "}
-            for details on deploying the NFTContract.
-            <br />
-            Then, go to{" "}
-            <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
-              packages/nextjs/README.md
-            </code>{" "}
-            for details on setting up the Next.js app
-          </p>
         </div>
       </div>
       <LighthouseNFTContracts />

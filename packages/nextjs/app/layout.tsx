@@ -5,7 +5,7 @@ import "~~/styles/globals.css";
 import { getMetadata } from "~~/utils/fil-frame/getMetadata";
 
 export const metadata = getMetadata({
-  title: "FIL-Frame App",
+  title: "Convo App",
   description: "Built with 🏗 FIL-Frame",
 });
 

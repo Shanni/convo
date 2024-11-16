@@ -10,7 +10,7 @@ import { FaucetButton, RainbowKitCustomConnectButton } from "~~/components/fil-f
 import { useOutsideClick } from "~~/hooks/fil-frame";
 
 const LighthouseIcon = () => (
-  <Image alt="Lighthouse logo" src="/icons/lighthouse.jpg" width={20} height={20} className="size-5 rounded-xl" />
+  <Image alt="Convo logo" src="/icons/lighthouse.jpg" width={20} height={20} className="size-5 rounded-xl" />
 );
 
 type HeaderMenuLink = {
@@ -23,11 +23,6 @@ export const menuLinks: HeaderMenuLink[] = [
   {
     label: "Home",
     href: "/",
-  },
-  {
-    label: "Lighthouse",
-    href: "/lighthouse",
-    icon: <LighthouseIcon />,
   },
   {
     label: "Debug Contracts",
@@ -98,7 +93,7 @@ export const Header = () => {
             </ul>
           )}
         </div>
-        <Link href="/" passHref className="hidden lg:flex items-center gap-2 ml-4 mr-6 shrink-0">
+        <Link href="/" passHref className="hidden lg:flex items-center gap-2 ml-5 mr-6 shrink-0">
           <div className="flex relative w-60 ">
             <LogoLandscape />
           </div>
