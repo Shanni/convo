@@ -33,7 +33,7 @@ const config: HardhatUserConfig = {
       },
     },
   },
-  defaultNetwork: "calibration",
+  defaultNetwork: "polygonSepolia",
   namedAccounts: {
     deployer: {
       // By default, it will take the first Hardhat account as the deployer
@@ -67,6 +67,14 @@ const config: HardhatUserConfig = {
     },
     optimismSepolia: {
       url: `https://opt-sepolia.g.alchemy.com/v2/${providerApiKey}`,
+      accounts: [deployerPrivateKey],
+    },
+    polygonSepolia: {
+      url: `https://public.stackup.sh/api/v1/node/polygon-mumbai`,
+      accounts: [deployerPrivateKey],
+    },
+    morph: {
+      url: `https://rpc.morphl2.io`,
       accounts: [deployerPrivateKey],
     },
   },
