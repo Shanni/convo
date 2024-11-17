@@ -100,3 +100,14 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - ETH Global Bangkok for the hackathon opportunity
 - FILFrame team for the storage solution
 - The Web3 community for support and inspiration
+
+# Deployed Contracts
+ 
+Morphl2 Explorer
+https://explorer-holesky.morphl2.io/address/0x835A9896A749896c6298715E3ccC40bd526098e5
+
+Filecoin 
+https://calibration.filscan.io/address/0x1E53bea57Dd5dDa7bFf1a1180a2f64a5c9e222f5/
+
+Polygon 
+https://www.oklink.com/amoy/address/0x928B2AEC76b42350B1C9739183E9394d085816Ed
